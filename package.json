@@ -1,0 +1,24 @@
+{
+  "name": "typescript-boilerplate",
+  "version": "0.1.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "npm run lint && tsc",
+    "lint": "tslint src/**/*.ts",
+    "test": "",
+    "clean": "del lib"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "6.0.46",
+    "del-cli": "0.2.0",
+    "tslint": "3.15.1",
+    "typescript": "2.0.7"
+  },
+  "engines": {
+    "node": ">= 6.0.0"
+  }
+}
