@@ -1,24 +1,33 @@
 {
   "name": "typescript-boilerplate",
   "version": "0.1.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "build": "npm run lint && tsc",
-    "lint": "tslint src/**/*.ts",
-    "test": "",
-    "clean": "del lib"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "MIT",
   "devDependencies": {
+    "@types/mocha": "2.2.32",
     "@types/node": "6.0.46",
+    "@types/power-assert": "1.4.29",
     "del-cli": "0.2.0",
+    "espower-ts-node": "1.0.3",
+    "mocha": "3.1.2",
+    "power-assert": "1.4.2",
+    "source-map-support": "0.4.6",
+    "ts-node": "1.7.0",
     "tslint": "3.15.1",
     "typescript": "2.0.9"
   },
+  "directories": {
+    "test": "test"
+  },
   "engines": {
     "node": ">= 6.0.0"
+  },
+  "keywords": [],
+  "license": "MIT",
+  "main": "index.js",
+  "scripts": {
+    "build": "npm run lint && tsc",
+    "clean": "del lib",
+    "lint": "tslint src/**/*.ts",
+    "test": "mocha",
+    "test:watch": "mocha -w"
   }
 }
