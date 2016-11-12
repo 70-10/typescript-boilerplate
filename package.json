@@ -16,7 +16,7 @@
     "@types/node": "6.0.46",
     "del-cli": "0.2.0",
     "tslint": "3.15.1",
-    "typescript": "2.0.7"
+    "typescript": "2.0.9"
   },
   "engines": {
     "node": ">= 6.0.0"
