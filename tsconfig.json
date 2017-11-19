@@ -2,23 +2,23 @@
   "compileOnSave": true,
   "compilerOptions": {
     "module": "commonjs",
+    "moduleResolution": "node",
     "target": "es6",
-    "declaration": true,
+    "outDir": "lib/",
     "noImplicitAny": true,
+    "removeComments": true,
+    "sourceMap": false,
+    "declaration": true,
+    "strict": true,
     "noUnusedLocals": true,
     "noUnusedParameters": true,
-    "strictNullChecks": true,
-    "sourceMap": true,
-    "outDir": "lib",
-    "skipLibCheck": true
+    "noImplicitReturns": true,
+    "noFallthroughCasesInSwitch": true
   },
-  "formatCodeOptions": {
-    "indentSize": 2,
-    "tabSize": 2
-  },
+  "include": [
+    "src/**/*"
+  ],
   "exclude": [
-    "node_modules",
-    "test",
-    "lib"
+    "node_modules"
   ]
 }

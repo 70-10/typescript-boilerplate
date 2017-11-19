@@ -1,7 +1,9 @@
-export function main() {
-  console.log("Hello, world");
+async function main() {
+  console.log(twice(2));
 }
 
-export function twice(num: number) {
+function twice(num: number) {
   return num * 2;
 }
+
+main().catch(console.error);
