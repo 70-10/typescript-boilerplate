@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "devDependencies": {
     "@types/mocha": "^2.2.44",
-    "@types/node": "^8.0.47",
+    "@types/node": "^8.0.53",
     "@types/power-assert": "1.4.29",
     "del-cli": "^1.1.0",
     "espower-ts-node": "1.0.3",
