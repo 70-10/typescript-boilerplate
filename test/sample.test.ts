@@ -1,9 +1,8 @@
 import * as assert from "power-assert";
-import * as main from "../src";
+import twice from "../src/twice";
 
 describe("Sample Test", () => {
   it("twice", () => {
-    assert(main.twice(1) === 2);
+    assert(twice(1) === 2);
   });
 });
-

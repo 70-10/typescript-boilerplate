@@ -1,5 +1,3 @@
---compilers ts:ts-node/register
---require source-map-support/register
---require espower-ts-node
+--require espower-typescript/guess
 
 --timeout 1000
